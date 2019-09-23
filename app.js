@@ -11,6 +11,7 @@ const generateTemplate = (todo) => {
 
     list.innerHTML += html
 }
+// PreventDefault is the method used to stop automatically reloading the page
 addForm.addEventListener('submit', e => {
     e.preventDefault()
     const todo = addForm.add.value.trim()
